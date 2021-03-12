@@ -452,6 +452,7 @@ h3.agileits-title {
     padding-left: 1em;
 }
 .video-grid-single-page-agileits {
+	margin: 0 auto;
 	text-align: center !important;
     width: 100% !important;
 }
@@ -990,14 +991,12 @@ ul.agile_footer_grid_list li span{
 		background: -ms-linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-21.jpg) repeat;
 		background: linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-21.jpg) repeat;
 	}
-	
 	.carousel .item.item2 {
 		background: -webkit-linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-11.jpg) repeat;
 		background: -moz-linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-11.jpg) repeat;
 		background: -ms-linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-11.jpg) repeat;
 		background: linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-11.jpg) repeat;
-	}
-	
+	}	
 	.carousel .item.item3 {
 		background: -webkit-linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-61.jpg) repeat;
 		background: -moz-linear-gradient(rgba(23, 22, 23, 0), rgba(23, 22, 23, 0)), url(../images/bg-61.jpg) repeat;
@@ -1028,6 +1027,9 @@ ul.agile_footer_grid_list li span{
 	}
 	.w3_agile_footer_grid.right {
 		padding: 5px;
+	}
+	.video-grid-single-page-agileits {
+        display: none;
 	}
 	.navbar-nav>li {
 		width: 30%;
